@@ -99,6 +99,8 @@ class Board:
 board = Board()
 print()
 
+print("Enter X or O as values")
+
 # ENTER VALUES IN MATRIX
 board.make()
 
@@ -114,4 +116,28 @@ print("Solved board")
 
 # DISPLAYING SOLVED BOARD
 board.show()
+        
 
+        
+        
+                        
+                        
+                
+
+        
+                       
+
+        
+        
+
+
+    
+    
+
+
+
+
+                                                                                                                                                                       
+    
+
+ 
