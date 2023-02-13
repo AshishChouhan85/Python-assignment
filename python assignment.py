@@ -4,10 +4,12 @@ class Board:
     def __init__(self, rows, cols):
 
         self.matrix = []
-
+        
+        # TO CHECK IF VALID NUMBER OF ROWS ARE GIVEN
         if rows <= 0:
             raise Exception("Invalid rows")
-
+        
+        # TO CHECK IF VALID NUMBER OF COLUMNS ARE GIVEN
         if cols <= 0:
             raise Exception("Invalid columns")
 
@@ -22,7 +24,7 @@ class Board:
         if len(self.matrix[0]) > self.cols:
             raise Exception("Maximum number of columns exceeded")
 
-    # FUNCTION TO ENTER CORRECT VALUES IN THE MATRIX
+    # FUNCTION TO CHECK IF VALID INPUTS ARE GIVEN IN THE MATRIX
     def check(self):
         for i in self.matrix:
             for j in i:
